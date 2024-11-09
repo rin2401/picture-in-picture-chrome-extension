@@ -1,5 +1,5 @@
 {
-  "name": "Picture-in-Picture Extension (by Google)",
+  "name": "pip",
   "description": "Watch video using Picture-in-Picture",
   "version": "1.11",
   "icons": {
@@ -23,10 +23,6 @@
         "linux": "Alt+P"
       }
     }
-  },
-  "options_ui": {
-    "page": "options.html",
-    "open_in_tab": false
   },
   "permissions": [
     "scripting",
