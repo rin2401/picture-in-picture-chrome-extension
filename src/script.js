@@ -15,7 +15,7 @@
 function findLargestPlayingVideo() {
   const videos = Array.from(document.querySelectorAll('video'))
     .filter(video => video.readyState != 0)
-    .filter(video => video.disablePictureInPicture == false)
+    // .filter(video => video.disablePictureInPicture == false)
     .sort((v1, v2) => {
       const v1Rect = v1.getClientRects()[0]||{width:0,height:0};
       const v2Rect = v2.getClientRects()[0]||{width:0,height:0};
@@ -25,6 +25,9 @@ function findLargestPlayingVideo() {
   if (videos.length === 0) {
     return;
   }
+  console.log(videos);
+
+  videos[0].disablePictureInPicture = false;
 
   return videos[0];
 }

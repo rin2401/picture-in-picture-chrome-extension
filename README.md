@@ -11,3 +11,6 @@ Get it on the Chrome Web Store at https://chrome.google.com/webstore/detail/hkgf
 The keyboard shortcut (defaults to `Alt-P`) can be changed on the
 Chrome Extension Shortcuts settings page:
 chrome://extensions/shortcuts
+
+## Messenger call
+Change Messenger call window to tab using `Show with tab`. Then turn on picture to picture
